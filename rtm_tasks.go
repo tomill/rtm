@@ -15,6 +15,7 @@ type Note struct {
 	ID       string
 	Created  DateTime
 	Modified DateTime
+	Title    string
 	Text     string
 }
 
@@ -119,6 +120,7 @@ func (ts *taskSeriesResp) parseNotes() ([]Note, error) {
 			ID       string   `json:"id"`
 			Created  DateTime `json:"created"`
 			Modified DateTime `json:"modified"`
+			Title    string   `json:"title"`
 			Text     string   `json:"$t"`
 		} `json:"note"`
 	}
@@ -132,6 +134,7 @@ func (ts *taskSeriesResp) parseNotes() ([]Note, error) {
 			ID:       n.ID,
 			Created:  n.Created,
 			Modified: n.Modified,
+			Title:    n.Title,
 			Text:     n.Text,
 		}
 	}

@@ -36,7 +36,8 @@ func TestTasks(t *testing.T) {
 						ID:       "81657665",
 						Created:  parseDateTime(t, "2020-08-01T13:05:05Z"),
 						Modified: parseDateTime(t, "2020-08-01T13:05:05Z"),
-						Text:     "Note 1",
+						Title:    "Note 1 title",
+						Text:     "Note 1 body",
 					}},
 					Task: []Task{{
 						ID:       "622345829",
