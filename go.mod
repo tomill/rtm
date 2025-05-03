@@ -1,4 +1,4 @@
-module github.com/AlekSi/rtm
+module github.com/tomill/rtm
 
 go 1.18
 
