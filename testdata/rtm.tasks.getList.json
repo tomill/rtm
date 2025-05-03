@@ -36,8 +36,8 @@
                                         "id": "81657665",
                                         "created": "2020-08-01T13:05:05Z",
                                         "modified": "2020-08-01T13:05:05Z",
-                                        "title": "",
-                                        "$t": "Note 1"
+                                        "title": "Note 1 title",
+                                        "$t": "Note 1 body"
                                     }
                                 ]
                             },
