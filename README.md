@@ -10,6 +10,8 @@ Note: this product uses the Remember The Milk API but is not endorsed or certifi
 
 # Methods
 
+| methods | status
+| --- | ---
 | [`rtm.auth.checkToken`](https://www.rememberthemilk.com/services/api/methods/rtm.auth.checkToken.rtm)                   | [`AuthService.CheckToken`](https://pkg.go.dev/github.com/AlekSi/rtm#AuthService.CheckToken)
 | [`rtm.auth.getFrob`](https://www.rememberthemilk.com/services/api/methods/rtm.auth.getFrob.rtm)                         | [`AuthService.GetFrob`](https://pkg.go.dev/github.com/AlekSi/rtm#AuthService.GetFrob)
 | [`rtm.auth.getToken`](https://www.rememberthemilk.com/services/api/methods/rtm.auth.getToken.rtm)                       | [`AuthService.GetToken`](https://pkg.go.dev/github.com/AlekSi/rtm#AuthService.GetToken)
